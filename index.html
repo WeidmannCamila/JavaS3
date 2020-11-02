@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Proyecto Final</title>
+        <link rel="shortcut icon" href="./src/javascript-icon-png-23.png" type="image/x-icon">
+        <link rel="stylesheet" href="./css/normalize.css">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Editor En Tiempo Real</h1>
+        </header>
+        <div class="contenedor">
+            <textarea onkeyup="visualizarAhora()" placeholder="Codifica Aquí..." class="area" id="area"></textarea>
+            <iframe class="vista" id="vista"></iframe>
+        </div>
+
+        <footer>
+            <span>CAMIWEID</span>
+        </footer>
+
+        <script src="./js/main.js"></script>
+    </body>
+</html>
